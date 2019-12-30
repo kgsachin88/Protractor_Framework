@@ -22,8 +22,8 @@ describe('Demo calculator tests',function(){
         homepage.get('https://juliemr.github.io/protractor-demo/');
         homepage.enterFirstnumber('4');
         homepage.enterSecondnumber('7');
-        homepage.clickGo1();
-        homepage.verifyresult('11');
+        homepage.clickGo();
+        homepage.verifyresult('1');
         browser.sleep(5000);
       
     });
