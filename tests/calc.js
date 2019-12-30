@@ -15,7 +15,7 @@ describe('Demo calculator tests',function(){
       
     });
 
-    it('Subtraction tests negetive',function(){
+    it('Subtraction tests negetive Scenario',function(){
 
         //browser.get('https://juliemr.github.io/protractor-demo/');
 
