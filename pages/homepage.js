@@ -34,6 +34,12 @@ let homepage = function(){
         expect(output.getText()).toEqual(result);
     };
 
+    this.verifyresultnegetive = function(result){
+
+        let output = element(by.cssContainingText('.ng-binding', result));
+        expect(output.getText()).not.toEqual(result);
+    };
+
 };
 
 module.exports = new homepage();
