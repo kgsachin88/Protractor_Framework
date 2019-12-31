@@ -6,6 +6,12 @@ let homepage = function(){
 
     let goButton = element(by.css('[ng-click="doAddition()"]'));
 
+    let subtract = element(by.css("option[value='SUBTRACTION']"));
+
+    this.substract =function(){
+        subtract.click();
+    }
+
     this.get = function(url){
         browser.get(url);
     };
