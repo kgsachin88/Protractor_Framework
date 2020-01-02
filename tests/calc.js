@@ -24,7 +24,7 @@ describe('Demo calculator tests',function(){
         homepage.enterSecondnumber('7');
         homepage.clickGo();
         homepage.verifyresultnegetive('1');
-        browser.sleep(1000);
+        browser.sleep(2000);
       
     });
 
