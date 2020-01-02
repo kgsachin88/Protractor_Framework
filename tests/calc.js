@@ -23,7 +23,7 @@ describe('Demo calculator tests',function(){
         homepage.enterFirstnumber('4');
         homepage.enterSecondnumber('7');
         homepage.clickGo();
-        homepage.verifyresultnegetive('1');
+        homepage.verifyresultnegetive('5');
         browser.sleep(2000);
       
     });
