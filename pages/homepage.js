@@ -8,8 +8,27 @@ let homepage = function(){
 
     let subtract = element(by.css("option[value='SUBTRACTION']"));
 
+    let multiplication = element(by.css("option[value='MULTIPLICATION']"));
+
+    let division = element(by.css("option[value='DIVISION']"));
+
+    let modulo = element(by.css("option[value='MODULO']"));
+
     this.substract =function(){
         subtract.click();
+    }
+
+    this.division =function(){
+        division.click();
+    }
+
+    this.modulo =function(){
+        modulo.click();
+
+    }
+
+    this.multiplication = function(){
+        multiplication.click();
     }
 
     this.get = function(url){
