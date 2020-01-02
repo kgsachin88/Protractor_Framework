@@ -40,7 +40,7 @@ describe('Demo calculator tests',function(){
 
     })
 
-    it('Multipication Test Positive scenario',function(){
+    xit('Multipication Test Positive scenario',function(){
         homepage.get('https://juliemr.github.io/protractor-demo/');
         homepage.enterFirstnumber('4');
         homepage.enterSecondnumber('3');
