@@ -12,7 +12,10 @@ describe('Demo calculator tests',function(){
         homepage.clickGo();
         homepage.verifyresult('11');
         browser.sleep(1000);
-      
+        //let title = browser.getCurrentUrl();
+        let title = browser.getTitle();
+        expect(title).toEqual('Super Calculator');
+        console.log(title);     
     });
 
     it('Addition tests negetive Scenario',function(){
