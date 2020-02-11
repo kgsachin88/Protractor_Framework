@@ -1,7 +1,7 @@
 let homepage = require('../pages/homepage');
 
 
-beforeEach
+
 describe('Demo calculator tests',function(){
 
     it('addition tests',function(){
